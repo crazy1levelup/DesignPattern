@@ -10,13 +10,10 @@ namespace Builder
     {
         Vehicle objVehicle = new Vehicle();
 
-       
-
         public void SetAccessories()
         {
             objVehicle.Accessories.Add("Seat Cover");
             objVehicle.Accessories.Add("Rear Mirror");
-           
         }
 
         public void SetBody()
@@ -38,6 +35,7 @@ namespace Builder
         {
             objVehicle.Transmission = "120km/h"; 
         }
+
         public Vehicle GetVehicle()
         {
             return objVehicle;

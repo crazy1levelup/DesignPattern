@@ -28,6 +28,5 @@ namespace Builder
         {
             return objBuilder.GetVehicle();
         }
-
     }
 }

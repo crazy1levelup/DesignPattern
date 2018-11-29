@@ -23,7 +23,6 @@ namespace Builder
             vehicle.ShowInfo();
 
             Console.ReadLine();
-
         }
     }
 }
